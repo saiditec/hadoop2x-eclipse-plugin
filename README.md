@@ -1,25 +1,25 @@
 hadoop2x-eclipse-plugin
 =======================
 
-eclipse plugin for hadoop  2.5.1
+eclipse plugin for hadoop  2.5.2
  
 
 How to build
 ----------------------------------------
 
-  $cd src/contrib/eclipse-plugin 
+```bash
+cd src/contrib/eclipse-plugin 
 
-  $ant jar -Dversion=2.5.1 -Declipse.home=/opt/eclipse -Dhadoop.home=/usr/local/hadoop
+ant jar -Dversion=2.5.2 -Declipse.home=$ECLIPSE_HOME -Dhadoop.home=${HADOOP_HOME}
 
-final jar will be genrated at directory 
-
-  $root/build/contrib/eclipse-plugin/hadoop-eclipse-plugin-2.5.1.jar
+# final jar will be genaratd at 'build/contrib/eclipse-plugin/'
+```
 
 options required
 --------------------------------------
-  eclipse.home: path of eclipse home 
+  ECLIPSE\_HOME: path of eclipse home 
 
-  hadoop.home: path of hadoop 2.x home
+  HADOOP\_HOME: path of hadoop 2.x home
  
 
 How to debug
