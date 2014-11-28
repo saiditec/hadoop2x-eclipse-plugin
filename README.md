@@ -27,4 +27,10 @@ How to debug
   start eclipse with debug parameter:  
 
     /opt/eclipse/eclipse -clean -consolelog -debug
-
+How to use
+--------------------------------------
+* Copy *hadoop-eclipse-Luna-plugin-2.5.2.jar* from *build/contrib/eclipse-plugin* to *ECLIPSE\_HOME/plugins*.
+* Reboot your eclipse.
+* Create a new project, select *Map/Reduce Project* from the list.
+* Set your hadoop home .
+* Append hbase lib to your build path if required.
